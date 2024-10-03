@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="../Css/Login.css" />
 </head>
 <body>
-    <div>
-        <h1>Construcción</h1>      
-        <a href="/Html/Index.html"><button type="submit">Volver</button></a>
+    <div class="header">
+        <h1 class="top-left title">Construcción</h1>
+        <div class="top-right">
+          <a href="/Html/Index.html"><button type="submit" class="btn">Volver</button></a>        
+        </div>
+        <hr class="divider" />
       </div>
     <div class="container">
         <h3>Registrate en los formularios</h3>
@@ -20,10 +23,7 @@
                         alt="logo google">
                 </picture>
                 <span>Registrarse con Google</span>
-            </button>
-            <button class="twiter-btn">
-                <picture>T</picture>
-            </button>
+            </button>           
         </div>
         <div class="separator">
             <hr>
@@ -52,9 +52,10 @@
             <label for="checkbox" class="checkbox-label">
                 <input type="checkbox" id="checkbox" />
                 <span>Acepto las condiciones y el aviso legal</span>
-            </label>
-            <a href="Escoger.html"><button type="submit" class="submit-btn">Crear cuenta</button></a>
+            </label>            
         </form>
+        <a href="Escoger.html"><button type="submit" class="submit-btn">Crear cuenta</button></a>
     </div>
+
 </body>
 </html>

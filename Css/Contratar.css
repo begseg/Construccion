@@ -1,0 +1,165 @@
+.header {
+    position: fixed; /* Fijar el header en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Abarcar el ancho total */
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para diferenciar el header */
+  }
+  .btns {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* Contenedor de los botones en la esquina superior derecha */
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 20px;
+  }
+  
+  .top-right .btn {
+    margin-left: 5px; /* Separación entre los botones */
+  }
+  .divider {
+    border: none;
+    border-bottom: 3px solid #000; /* Línea negra */
+    width: 100%;
+    margin-top: 60px;
+  }
+  .title{
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 20px;
+    color: #0056b3;
+    
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+  .bottom-center {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div {
+    margin-bottom: 40px;
+}
+
+/* Botón de volver */
+button {
+    position: relative;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a button {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilos para los checkboxes y etiquetas */
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+span {
+    font-size: 1.8rem;
+    color: #555;
+}
+
+/* Estilo de la segunda sección de botones (categorías) */
+div:nth-of-type(3) label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+div:nth-of-type(3) button {
+    background-color: #28a745;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+div:nth-of-type(3) button:hover {
+    background-color: #218838;
+}
+
+div:nth-of-type(3) {
+    text-align: center;
+}
